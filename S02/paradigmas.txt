@@ -1,0 +1,11 @@
+Funções puras
+
+Funções puras são mais fáceis de testar e paralelizar pois elas sempre geram o mesmo resultado a partir da mesma entrada e não modificam nenhum valor exceto aqueles passados como parâmetros. É boa prática utilizá-las sempre que possível. Um exemplo bem-conhecido de programa que usa várias funções puras é Redux. 
+
+Recursão
+
+Recursão permite a escrita de código mais enxuto. Recursão também permite a implementação de uma estrutura de stack usando simplesmente a pilha de chamadas. Isso é bom para lidar com problemas complexos com bifurcações no fluxo da execução do programa (ou seja, árvores), mas corre o risco de causar stack overflow ao lidar com problemas muito grandes. É boa prática limitar recursão só a problemas que requerem stack, e especialmente aqueles que implementam árvores.
+
+Avaliação preguiçosa
+
+Avaliação preguiçosa permite que uma expressão no código fonte só seja executada pelo programa quando for absolutamente necessário para o fluxo do algorítmo. Isso permite um controle de fluxo do programa mais sofisticado, o que é interessante para linguagens funcionais pois dá ao programador melhores meios de isolar seções impuras do código.
