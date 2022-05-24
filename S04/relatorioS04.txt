@@ -1,0 +1,3 @@
+Eu tbm fiz as tarefas dessa semana meio atrasado, por isso a maioria das questões estavam fácies pois boa parte do conteúdo eu já tinha estudado.
+
+Eu só tive dúvida mesmo nas questões Init, Uniao e Partition - a primeir pq eu não soube resolver sem usar "init", a segunda pq eu não consegui aplicar "not" para a função "elem" e tive que usar "notElem", e a terceira foi pq eu não entendi direito a descrição da questão pedia.
