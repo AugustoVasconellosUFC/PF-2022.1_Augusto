@@ -1,0 +1,3 @@
+Não tive problemas com nenhuma questão exceto a última.
+
+Eu achei a ideia de usar zip para criar uma lista de tuplas com elementos de outra lista e suas posições muito útil. Eu já salvei isso aqui caso eu precise usar essa técnica no futuro.

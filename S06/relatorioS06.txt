@@ -1,0 +1,1 @@
+Os exercícios dessa semana me ajudaram muito, especialmente aqueles que involvem funções que passam outras funções como parâmetro (mymap,myfilter,etc.)
