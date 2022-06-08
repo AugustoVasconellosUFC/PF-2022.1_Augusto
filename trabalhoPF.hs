@@ -37,11 +37,17 @@ set xs index value = xs1 ++ (charVal:xs2)
 -- holes: lista de posições a serem preenchidas
 -- hindex: posicao atual no vetor de holes
 solve :: (String, Int) -> [Int] -> Int -> Maybe String
-solve (xs, lim) holes hindex = ...
+solve (xs, lim) holes hindex = if hindex < length holes then tryVal [0..lim] else Just xs
+  where
+    tryVal (val:vals)
+      | fit (xs, lim) (holes!!hindex) val && isJust try = try
+      | otherwise = tryVal vals
+        where try = solve ((set xs (holes!!hindex) val), lim) holes (hindex+1)
+    tryVal [] = Nothing
 
 -- prepara a entrada para a função recursiva de resolução
 mainSolver :: String -> Int -> String
-mainSolver xs lim = ...
+mainSolver xs lim = fromJust (solve (xs, lim) (getHoles xs) 0)
 
 main :: IO ()
 main = do
