@@ -1,0 +1,1 @@
+dessas questões a única que realmente me fez quebrar a cabeça foi o ehPrimo. Eu tentei várias formas de colocar uma guarda dentro de outra guarda.
