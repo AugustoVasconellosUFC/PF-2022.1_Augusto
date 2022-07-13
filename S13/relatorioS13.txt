@@ -1,0 +1,2 @@
+O único exercício desses que me deu problemas foi o do compactador. Eu fique recebendo um erro de pattern matching não exaustivo no compilador. No fim o meu código não funcionou, mas eu vou salver ele aqui mesmo assim pra mostrar o que eu consegui fazer.
+Todos os outros exercícios eu fiz com facilidade.
